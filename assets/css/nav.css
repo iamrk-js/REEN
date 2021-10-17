@@ -1,0 +1,27 @@
+/* navigation css  */
+.mainHeader{
+    padding: 35px 0px;
+}
+.mainHeader .navbar-default {
+    margin: 0px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.mainHeader  .navbar-default .navbar-nav>li>a{
+    text-transform:uppercase ;
+}
+.mainHeader  .navbar-default .navbar-nav>.active>a, 
+.mainHeader  .navbar-default .navbar-nav>.active>a:focus, 
+.mainHeader  .navbar-default .navbar-nav>.active>a:hover ,
+.mainHeader  .navbar-default .navbar-nav>li>a:focus, 
+.mainHeader  .navbar-default .navbar-nav>li>a:hover{
+    color: #00bc9c;
+    background-color: #f5f7fa;
+
+}
+.mainHeader .navbar-header {
+    margin-right: 30px !important;
+}
+.mainHeader .navbar-brand {
+    padding: 5px 15px;
+}

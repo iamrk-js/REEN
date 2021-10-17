@@ -1,0 +1,103 @@
+@media (max-width: 991px) {
+    .heroCaption h1 {
+        font-size: 58px;
+        margin-bottom: 36px;
+    }
+    .primary-btn {
+        padding: 20px 50px;
+    }
+    .latestCard {
+        height: auto;
+    }
+    .footerLinks.nav {
+        float: right;
+    }
+    .navbar-brand>img {
+        display: block;
+        width: 90px;
+    }
+    .mainHeader .navbar-header {
+        margin-right: 5px !important;
+    }
+   .mainHeader .navbar-collapse.collapse {
+        display: inline-block!important;
+    }
+   .mainHeader .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 8px;
+    }
+    .mainHeader {
+        padding: 20px 0px;
+    }
+    .creativity,
+    .latestWork,
+    .wantToWork {
+        padding: 95px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .heroCaption h1 {
+        font-size: 32px;
+    }
+    .primary-btn {
+        padding: 15px;
+    }
+    .heroCaption p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 35px;
+    }
+    .creativity,
+    .latestWork,
+    .wantToWork {
+        padding: 65px 0px;
+    }
+    .subHeading {
+        font-size: 32px;
+    }
+    .subPara {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 45px;
+    }
+    .thumbInfo h3 {
+        margin: 0px 0px 20px;
+    }
+    .thumbImg i {
+        font-size: 40px;
+        margin-bottom: 7px;
+    }
+    .latestCard {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .myslider {
+        margin-top: 40px;
+    }
+    .mainHeader {
+        padding: 20px 0px;
+    }
+    .navbar-brand > img {
+        display: block;
+        width: 120px;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #00bc9c;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #00bc9c;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle.collapsed .icon-bar {
+        background-color: #00bc9c;
+    }
+
+    .mainHeader .navbar-header {
+        margin-right: 0px !important;
+    }
+}

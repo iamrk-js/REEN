@@ -1,0 +1,235 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* helping class  */
+.subHeading {
+    font-size: 44px;
+    color: #506a85;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.subPara {
+    color: #73879c;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 85px;
+}
+.plr-5 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+/* helping class  */
+.heroImg {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/heroImg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cap-container {
+    position: relative;
+    height: 100vh;
+}
+.heroCaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 55%;
+    transform: translate(-50%, -50%);
+}
+.heroCaption h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 78px;
+    margin-bottom: 36px;
+}
+.heroCaption p {
+    color: #a3b1bf;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 65px;
+}
+.primary-btn {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00bc9c;
+    padding: 25px 70px;
+    border-bottom: 1px solid #00a085;
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.primary-btn:hover,
+.primary-btn:focus,
+.primary-btn:active {
+    color: #00bc9c;
+    background-color: #fff;
+    border: 1px solid #00a085;
+}
+
+/* socialHeader css  */
+.socialHeader {
+    background-color: #f5f7fa;
+    padding: 15px 0px;
+}
+
+.socialLinks .headerLinks {
+    display: inline-block;
+}
+
+/* creativity css  */
+.creativity {
+    padding: 125px 0px;
+}
+.myThumbnail {
+    margin-bottom: 15px;
+}
+.thumbImg i {
+    font-size: 60px;
+    color: #00bc9c;
+}
+.thumbInfo h3 {
+    margin: 0px 0px 33px;
+    color: #506a85;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.thumbInfo p {
+    color: #73879c;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* latestWork css  */
+.latestWork {
+    padding: 130px 0px;
+    background-color: #f2f5f7;
+}
+
+.latestCard {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e6e9ed;
+}
+figure.latestCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.latestCard figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.latestCard:hover figcaption {
+    bottom: 0px;
+    opacity: 1;
+}
+.myslider {
+    margin-top: 80px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+
+/* wantToWork css  */
+.wantToWork {
+    padding: 125px 0px;
+}
+
+/* footer css :start  */
+.footer-sec {
+    padding: 70px 0px;
+    background-color: #2f4052;
+}
+.footerHeading {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.footerPara,
+.footerPara a {
+    color: #a3b1bf;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+}
+.footerLogo {
+    margin-bottom: 22px;
+}
+.footerImg {
+    margin-bottom: 10px;
+}
+.footerImg img {
+    width: 100%;
+}
+.subscribe {
+    position: relative;
+}
+.subscribe .form-control {
+    background-color: #4e5c6c;
+    height: 40px;
+    line-height: 40px;
+}
+.subscribe .form-control::placeholder {
+    color: #a3b1bf;
+    font-size: 12px;
+}
+.subscribe .btn {
+    padding: 5px !important;
+    font-size: 13px !important;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+}
+
+.footer-pri {
+    background-color: #283645;
+    padding: 35px 0px;
+}
+.footerLinks li,
+.headerLinks li {
+    margin: 0px 5px;
+}
+.footerLinks li a,
+.headerLinks li a {
+    padding: 0px 5px;
+    font-size: 14px;
+    color: #707e8c;
+}
+.headerLinks li a {
+    color: #506a85;
+}
+.footerLinks.nav > li > a:hover,
+.footerLinks.nav > li > a:focus,
+.footerLinks.nav > li > a:active {
+    background-color: #283645 !important ;
+}
+.headerLinks.nav > li > a:hover,
+.headerLinks.nav > li > a:focus,
+.headerLinks.nav > li > a:active {
+    background-color: #f5f7fa !important ;
+}
+
+
